@@ -1,0 +1,32 @@
+.background-image {
+    background-image: url('../public/bg2_img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.form-container {
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.background-image input[type='email'],
+.background-image input[type='text'],
+.background-image input[type='password'] {
+    background-color: transparent;
+    margin-left: 6px;
+    border: none;
+    color:white;
+    border-bottom: 1px solid rgb(143, 139, 139);
+}
+.background-image p{
+    color: black;
+}
+.background-image a {
+    color: whitesmoke;
+}
